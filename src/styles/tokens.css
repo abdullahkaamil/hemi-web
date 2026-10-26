@@ -1,0 +1,46 @@
+/*
+ * Hemi tasarım değişkenleri.
+ * Renkler logodan (mor) ve marka görsellerindeki lacivertten alınmıştır;
+ * açık turkuaz ikincil vurgu rengidir.
+ */
+:root {
+  /* Renkler */
+  --c-white: #ffffff;
+  --c-violet: #7b3fe8; /* Logo moru – ana marka rengi */
+  --c-violet-deep: #5b23c4; /* Hover / basılı durum */
+  --c-violet-tint: #f3effe; /* Açık mor zemin */
+  --c-violet-line: #ddd2fb;
+  --c-turquoise: #7edfd5; /* Açık turkuaz – ikincil vurgu */
+  --c-turquoise-deep: #1f9e93; /* Turkuaz metin / ikon (erişilebilir kontrast) */
+  --c-turquoise-tint: #e7f9f6;
+  --c-ink: #1f1b4d; /* Görsellerdeki lacivert – başlıklar */
+  --c-text: #4a4766; /* Gövde metni */
+  --c-muted: #77738f;
+  --c-sos: #e0322f;
+
+  /* Tipografi */
+  --font-display: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Nunito Sans', system-ui, sans-serif;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1.0625rem;
+  --fs-md: 1.25rem;
+  --fs-lg: clamp(1.5rem, 1.2rem + 1vw, 1.875rem);
+  --fs-xl: clamp(2rem, 1.4rem + 2.2vw, 3rem);
+  --fs-hero: clamp(2.4rem, 1.6rem + 2.8vw, 3.75rem);
+
+  /* Ölçüler */
+  --container: 1180px;
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --header-h: 72px;
+  --section-y: clamp(4.5rem, 3rem + 6vw, 8rem);
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 32px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 10px 30px -16px rgb(31 27 77 / 0.25);
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
